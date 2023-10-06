@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messi</title>
+</head>
+<body>
+    <h1>Rellena tus datos</h1>
+
+    <form action="#" method="post">
+        <label for="userNom">Usuario</label><br>
+        <input type="text" id="userNom" name="nombreUsuario"  ><br>
+        <label for="userContra">Contraseña</label><br>
+        <input type="password" name="contraseniaUsuario" id="userContra"><br>
+        <label for="userTeam">Equipo de futbol</label><br>
+        <input type="text" name="equipoUsuario" id="userTeam"><br>
+
+        <label>Sexo</label> <br>
+        <input type="radio" name="sexo" id="hom" value="Hombre">
+        <label for="hom">Hombre</label><br>
+        <input type="radio" name="sexo" id="muj" value="Mujer">
+        <label for="muj">Mujer</label><br>
+
+        <label>Cual es para tu gusto el mejor prime de messi</label><br>
+        <input type="checkbox" name="prime1" id="2019" value="2019">
+        <label for="2019">2019</label><br>
+        <input type="checkbox" name="prime2" id="2012" value="2015">
+        <label for="2012">2012</label><br>
+        <input type="checkbox" name="prime3" id="2022" value="2022">
+        <label for="2022">2022</label><br>
+        <input type="checkbox" name="prime4" id="2010" value="2010">
+        <label for="2010">2010</label><br>
+
+        <label for="quest">¿Por que ese?</label><br>
+        <textarea name="justificacion" id="quest" cols="30" rows="10"></textarea><br>
+         
+        <label for="mejSel">Seleccione la mejor seleccion de futbol de la historia</label>
+        <select name="mejseleccion" id="mejSel">
+            <option value="arg">Argentina</option>
+            <option value="bra">Brasil</option>
+            <option value="ger">Alemania</option>
+            <option value="ita">Italia</option>
+        </select><br>
+
+        <input type="submit" name="Subir" id="sub">
+        <input type="reset" name="Reintentar" id="reset">
+
+    </form>
+</body>
+</html>
